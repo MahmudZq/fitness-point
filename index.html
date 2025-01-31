@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -19,26 +20,29 @@
     <title>Fitness Point</title>
 </head>
 
-<body>
-
-    <header class="container mx-auto">
-        <div class="navbar bg-base-100">
-            <div class="navbar-start">
-                
-                <a class="font-inter font-extrabold italic text-[#E6533C] text-xl">Fitness</a>
+<body bgcolor="#111111">
+    <header class="container flex flex-row flex-between mx-auto justify-between">
+            <div class="navbar-start my-auto">
+                <a class="font-inter font-extrabold italic text-[#E6533C] text-xl ">Fitness</a>
             </div>
-            <div class="navbar-end hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
-                    <li><a class="btn bg-[#E6533C] text-white py-1">Home</a></li>
-                    <li><a>Service</a></li>
-                    <li><a>Contact</a></li>
-                    <li><a>About</a></li>
-                </ul>
+            <div id="border-white" class="nav-primary-btn hidden border-4 border-white lg:flex">
+                <div class="nav-btn-home border-4 border-white">
+                    <a>Home</a>
+                </div>
+                <div class="nav-btn">
+                    <a >Service</a>
+                </div>
+                <div class="nav-btn">
+                    <a >Contact</a>
+                </div>
+                <div class="nav-btn">
+                    <a >About</a>
+                </div>
             </div>
-            <div class="navbar-end lg:hidden">
+            <div class="lg:hidden">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24"
                             stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M4 6h16M4 12h8m-8 6h16" />
@@ -56,6 +60,28 @@
         </div>
 
     </header>
+<section id="banner" class="container banner justify-between">
+    <div class="banner-data">
+
+        <h1 class="font-bold text-8xl text-white">
+            Get body in <span class="windsong-medium" >shape</span> & stay healthy
+        </h1>
+        <p class="text-stone-500 w-4/5 text-xl">
+            A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!
+        </p>
+
+
+
+    </div>
+    <div class="banner-photo">
+
+        <img src="./images/Images 2.png" alt="">
+
+
+    </div>
+
+
+</section>
 </body>
 
 </html>
