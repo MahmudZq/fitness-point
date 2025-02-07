@@ -21,67 +21,388 @@
 </head>
 
 <body bgcolor="#111111">
-    <header class="container flex flex-row flex-between mx-auto justify-between">
-            <div class="navbar-start my-auto">
-                <a class="font-inter font-extrabold italic text-[#E6533C] text-xl ">Fitness</a>
+    <header class="container flex flex-row flex-between mt-5 px-5 mx-auto justify-between">
+        <div class="navbar-start my-auto">
+            <a class="font-inter font-extrabold italic text-[#E6533C] text-3xl ">Fitness</a>
+        </div>
+        <div id="border-white" class="nav-primary-btn hidden lg:flex">
+            <div class="nav-btn-home">
+                <a>Home</a>
             </div>
-            <div id="border-white" class="nav-primary-btn hidden border-4 border-white lg:flex">
-                <div class="nav-btn-home border-4 border-white">
-                    <a>Home</a>
-                </div>
-                <div class="nav-btn">
-                    <a >Service</a>
-                </div>
-                <div class="nav-btn">
-                    <a >Contact</a>
-                </div>
-                <div class="nav-btn">
-                    <a >About</a>
-                </div>
+            <div class="nav-btn">
+                <a>Service</a>
             </div>
-            <div class="lg:hidden">
-                <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h8m-8 6h16" />
-                        </svg>
+            <div class="nav-btn">
+                <a>Contact</a>
+            </div>
+            <div class="nav-btn">
+                <a>About</a>
+            </div>
+        </div>
+        <div class="lg:hidden">
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 -ml-20 w-fit p-2 shadow">
+                    <li><a>Home</a></li>
+                    <li><a>Service</a></li>
+                    <li><a>Contact</a></li>
+                    <li><a>About</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+
+    </header>
+    <section id="banner" class="container banner justify-between pb-20">
+        <div class="banner-data">
+
+            <h1 class="font-bold text-8xl text-white">
+                Get body in <span class="windsong-medium">shape</span> & stay healthy
+            </h1>
+            <p class="text-stone-500 w-4/5 text-xl">
+                A huge selection of health and fitness content, healthy recipes and transformation stories to help you
+                get fit and stay fit!
+            </p>
+
+            <div class="flex flex-col gap-5 lg:flex-row">
+
+                <div class="banner-btn place-content-center" style="background-color:#E6533C;">
+                    Join Club Now!
+                </div>
+                <div class="banner-btn place-content-center" id="border-white">
+                    Download App
+                </div>
+
+            </div>
+
+        </div>
+        <div class="banner-photo" style="position:relative">
+
+            <img src="./images/Images 2.png" alt="">
+
+            <div class="banner-card-1 mx-auto">
+                <h1 class="text-5xl font-bold text-stone-200">500+</h1>
+                <p class="text-stone-400">Free Workout Videos</p>
+            </div>
+            <div class="banner-card-2 mx-auto">
+                <div class="flex flex-row gap-5">
+                    <div class="circle flex my-auto my-auto"></div>
+                    <div class="flex flex-col">
+                        <h1 class="text-5xl font-bold text-stone-200">350+</h1>
+                        <p class="text-stone-400">Video Tutorial</p>
                     </div>
-                    <ul tabindex="0"
-                        class="menu menu-sm dropdown-content bg-base-500 rounded-box z-[1] mt-3 -ml-20 w-fit p-2 shadow">
-                        <li><a>Home</a></li>
-                        <li><a>Service</a></li>
-                        <li><a>Contact</a></li>
-                        <li><a>About</a></li>
-                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="habit" class="bg-[#050505] mb-20">
+        <div class="container mx-auto">
+            <h1 class="text-center text-white font-bold text-5xl mx-auto mt-5 pb-3">
+                Change Your Habits
+            </h1>
+        </div>
+        <hr class="w-full h-[2px] bg-[#FF533C] my-0 py-0 border-0">
+        <div class="container mx-auto">
+            <p class="text-center text-base text-stone-600 xl:w-2/5 lg:1/2 md:3/5 w-4/5 pt-2 mx-auto wrap">
+                We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a
+                gym.
+            </p>
+        </div>
+        <div class="mt-20 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+
+            <div class="habit-card mx-auto mb-4">
+                <div class="habit-card-img-border"></div>
+                <img src="./images/image-3.png" class="" alt="">
+                <h1 class="text-center text-white font-bold text-2xl mx-auto pt-48">Movement</h1>
+                <p class="text-center text-base text-stone-600 w-4/5 pt-1 mx-auto wrap">
+                    We believe fitness should be accessible to everyone
+                </p>
+
+            </div>
+            <div class="habit-card mx-auto mb-4">
+                <div class="habit-card-img-border"></div>
+                <img src="./images/image-2.png" class="" alt="">
+                <h1 class="text-center text-white font-bold text-2xl mx-auto pt-48">Time</h1>
+                <p class="text-center text-base text-stone-600 w-4/5 pt-1 mx-auto wrap">
+                    We believe fitness should be accessible to everyone
+                </p>
+
+            </div>
+            <div class="habit-card mx-auto mb-4">
+                <div class="habit-card-img-border"></div>
+                <img src="./images/image-4.png" class="" alt="">
+                <h1 class="text-center text-white font-bold text-2xl mx-auto pt-48">Practice</h1>
+                <p class="text-center text-base text-stone-600 w-4/5 pt-1 mx-auto wrap">
+                    We believe fitness should be accessible to everyone
+                </p>
+
+            </div>
+            <div class="habit-card mx-auto mb-4">
+                <div class="habit-card-img-border"></div>
+                <img src="./images/image-3.png" class="" alt="">
+                <h1 class="text-center text-white font-bold text-2xl mx-auto pt-48">Weight Loss</h1>
+                <p class="text-center text-base text-stone-600 w-4/5 pt-1 mx-auto wrap">
+                    We believe fitness should be accessible to everyone
+                </p>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="habit" class="pt-20 bg-[#050505] pb-20">
+
+        <div class="container rounded-xl mx-auto bg-[#222222] flex flex-col lg:flex-row">
+            <div class="p-20 space-y-5">
+                <h1 class="text-5xl font-bold text-white">Run an Extra<br>
+                    Mile Easily</h1>
+                <p class="text-stone-500 xl:w-3/5 w-4/5 wrap">
+                    We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a
+                    gym. With hundreds of professional workouts.
+                </p>
+                <div class="banner-btn place-content-center text-xl" style="background-color:#E6533C;">
+                    Join Now
+                </div>
+
+            </div>
+            <div>
+
+                <img src="./images/run.jpg" class="rounded-xl shadow-xl" alt="">
+            </div>
+
+
+
+        </div>
+
+
+    </section>
+
+    <section id="team" class="bg-[#000000] pt-16 pb-20">
+        <div class="container mx-auto">
+            <h1 class="text-center text-white font-bold text-5xl mx-auto mt-5 pb-3">
+                Meet Our Team
+            </h1>
+        </div>
+        <div class="container mx-auto">
+            <p class="text-center text-base text-stone-600 xl:w-2/5 lg:1/2 md:3/5 w-4/5 pt-2 mx-auto wrap">
+                We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a
+                gym.
+            </p>
+        </div>
+        <div class="mt-20 container mx-auto  bg-[#222222] rounded-2xl">
+        <div class="pt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+
+
+            
+            <div class="team-card mx-auto  pb-4">
+                <img src="./images/trainer1.png" class="z-[1]" alt="">
+                <h1 class="text-center text-white font-bold text-2xl z-[2] relative" style="left:-80px; top:-100px;">
+                    Jerome Bell
+                </h1>
+                <p class="text-center text-stone-400 z-[3] relative" style="left:-120px; top:-100px;">
+                    Trainer
+                </p>
+
+            </div>
+
+
+            
+            
+            <div class="team-card mx-auto  pb-4">
+                <img src="./images/trainer2.png" class="z-[1]" alt="">
+                <h1 class="text-center text-white font-bold text-2xl z-[2] relative" style="left:-80px; top:-100px;">
+                    Williamson
+                </h1>
+                <p class="text-center text-stone-400 z-[3] relative" style="left:-120px; top:-100px;">
+                    Trainer
+                </p>
+
+            </div>
+
+            
+            
+            <div class="team-card mx-auto  pb-4">
+                <img src="./images/trainer3.png" class="z-[1]" alt="">
+                <h1 class="text-center text-white font-bold text-2xl z-[2] relative" style="left:-80px; top:-100px;">
+                    D. Steward
+                </h1>
+                <p class="text-center text-stone-400 z-[3] relative" style="left:-120px; top:-100px;">
+                    Trainer
+                </p>
+
+            </div>
+
+            
+            
+            <div class="team-card mx-auto pb-4">
+                <img src="./images/trainer4.png" class="z-[1]" alt="">
+                <h1 class="text-center text-white font-bold text-2xl z-[2] relative" style="left:-80px; top:-100px;">
+                    Dianne Russell
+                </h1>
+                <p class="text-center text-stone-400 z-[3] relative" style="left:-120px; top:-100px;">
+                    Trainer
+                </p>
+
+            </div>
+
+            
+            
+            <div class="team-card mx-auto  pb-4">
+                <img src="./images/trainer5.png" class="z-[1]" alt="">
+                <h1 class="text-center text-white font-bold text-2xl z-[2] relative" style="left:-80px; top:-100px;">
+                    Cody Fisher
+                </h1>
+                <p class="text-center text-stone-400 z-[3] relative" style="left:-120px; top:-100px;">
+                    Trainer
+                </p>
+
+            </div>
+
+            
+            
+            <div class="team-card mx-auto pb-4">
+                <img src="./images/trainer6.png" class="z-[1]" alt="">
+                <h1 class="text-center text-white font-bold text-2xl z-[2] relative" style="left:-80px; top:-100px;">
+                    Theresa Webb
+                </h1>
+                <p class="text-center text-stone-400 z-[3] relative" style="left:-120px; top:-100px;">
+                    Trainer
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+    </section>
+
+
+    </section>
+
+    <section class="bmi-calc container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-5">
+        <div class="mx-auto">
+            <h1 class=" text-3xl text-white font-inter font-bold mb-3 mt-16">
+                BMI Calculator Chart
+            </h1>
+
+            <table class="table border-collapse border border-gray-400 text-stone-600 text-base font-inter mb-16" >
+                <tr>
+                    <th class="border border-gray-600 text-lg font-bold text-white">BMI</th>
+                    <th class="border border-gray-600 text-lg font-bold text-white">Weight Status</th>
+                </tr>
+                <tr>
+                    <td class="border border-gray-600 ">Below 18.5</td>
+                    <td class="border border-gray-600 ">Underweight</td>
+                </tr>
+                <tr>
+                    <td class="border border-gray-600 ">18.5 - 24.9</td>
+                    <td class="border border-gray-600 ">Healthy</td>
+                </tr>
+                <tr>
+                    <td class="border border-gray-600 ">25.0 - 29.9</td>
+                    <td class="border border-gray-600 ">25.0 - 29.9</td>
+                </tr>
+                <tr>
+                    <td class="border border-gray-600 ">30.0 - and Above</td>
+                    <td class="border border-gray-600 ">Obese</td>
+                </tr>
+            </table>
+        </div>
+        <div class="mx-auto">
+            <h1 class=" text-3xl text-white font-inter font-bold mb-3 mt-16">
+                Calculate your BMI
+            </h1>
+            <p class="text-stone-500 xl:w-3/5 w-4/5 wrap mt-5 mb-4">
+                We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a
+                gym. With hundreds of professional workouts.
+            </p>
+            <div class="grid grid-cols-2 gap-[10px] ">
+
+                <input type="text" placeholder="Height/cm" class="input input-bordered w-full max-w-xs bg-stone-600" />
+                <input type="text" placeholder="Weight/kg" class="input input-bordered w-full max-w-xs bg-stone-600" />
+
+                <input type="text" placeholder="Age" class="input input-bordered w-full max-w-xs bg-stone-600" />
+                <select class="select select-bordered w-full max-w-xs bg-stone-600 text-stone-400 text-base">
+                    <option disabled selected><S>Sex</S></option>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+
+                <select class="col-span-2 select select-bordered w-2xl xl:w-[700px] bg-stone-600 text-stone-400 text-base ">
+                    <option disabled selected><S>Select an activity factor</S></option>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+
+                <div class="banner-btn font-inter font-bold place-content-center mt-5 mb-12" style="background-color:#E6533C;">
+                    Calculate
                 </div>
             </div>
         </div>
 
-    </header>
-<section id="banner" class="container banner justify-between">
-    <div class="banner-data">
-
-        <h1 class="font-bold text-8xl text-white">
-            Get body in <span class="windsong-medium" >shape</span> & stay healthy
-        </h1>
-        <p class="text-stone-500 w-4/5 text-xl">
-            A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!
-        </p>
 
 
 
-    </div>
-    <div class="banner-photo">
 
-        <img src="./images/Images 2.png" alt="">
+    </section>
 
 
-    </div>
-
-
-</section>
 </body>
+<footer class="bg-[#222222]">
+
+    <div class="container py-6 mx-auto grid grid-cols-1 lg:grid-cols-2">
+
+
+        <div class="flex flex-col gap-6 pb-20">
+
+            <h1 class="text-7xl font-bold italic font-inter text-[#E6533C]">
+                Fitness 
+            </h1>
+            <p class="w-4/5 font-inter text-base text-stone-500 wrap max-w-[500px]">
+                We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.
+            </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 ">
+        <div>
+            <h1 class="text-3xl text-white font-inter font-bold pb-8 ">
+                Get Started
+            </h1>
+            <div class="flex flex-col gap-3 pb-8">
+                <a href="#" class="text-stone-400 text-base ">Service</a>
+                <a href="#" class="text-stone-400 text-base ">Contact Us</a>
+                <a href="#" class="text-stone-400 text-base ">Affiliate Program</a>
+                <a href="#" class="text-stone-400 text-base ">About Us</a>
+            </div>
+        </div>
+
+        <div>
+            <h1 class="text-3xl text-white font-inter font-bold pb-8 ">
+                Get Started
+            </h1>
+            <div class="flex flex-col gap-3 pb-8">
+                <a href="#" class="text-stone-400 text-base ">Service</a>
+                <a href="#" class="text-stone-400 text-base ">Contact Us</a>
+                <a href="#" class="text-stone-400 text-base ">Affiliate Program</a>
+                <a href="#" class="text-stone-400 text-base ">About Us</a>
+            </div>
+        </div>
+
+        </div>
+
+
+    </div>
+    <div>
+        <hr class="w-4/5 lg:w-3/5 h-[2px] bg-stone-800 p-0 mb-3 mx-auto">
+        <p class="text-center text-base text-stone-400 mb-6">All right reserved @Fitness 2024</p>
+    </div>
+
+</footer>
 
 </html>
